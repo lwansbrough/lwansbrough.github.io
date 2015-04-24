@@ -79,9 +79,13 @@ h3 {
   margin: 20px 0;
 }
 
-#icons > i {
+#icons i {
   margin: 0 5px;
   vertical-align: middle;
+}
+
+#icons a:hover {
+  border: 0;
 }
 
 #icons .ion-social-twitter {
