@@ -45,14 +45,13 @@ h3 {
 }
 
 #container {
-  height: 500px;
-  width: 800px;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  margin-top: 100px;
+}
+
+@media (max-height: 719px) {
+  #container {
+    margin-top: 0;
+  }
 }
 
 #picture {
