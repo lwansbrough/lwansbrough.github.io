@@ -1,0 +1,106 @@
+@font-face{
+  font-family: 'FreightTextProSemibold-Regular';
+  src: url('../fonts/ftpsb-r.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  border-bottom: 1px solid #333;
+  padding-bottom: 2px;
+}
+
+body {
+  background-color: #fbfbfb;
+  color: #333;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: 'FreightTextProSemibold-Regular', serif;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 10px;
+}
+
+h2 {
+  color: #999;
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0 0 10px;
+}
+
+h3 {
+  color: #999;
+  font-size: 12px;
+  margin: 0 0 5px;
+}
+
+#container {
+  height: 500px;
+  width: 800px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#picture {
+  background-color: #333;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 220px;
+  width: 220px;
+  padding: 6px;
+  margin: 0 auto 30px;
+}
+
+#picture img {
+  border: 3px solid #fbfbfb;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+#icons {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+#icons > i {
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+#icons .ion-social-twitter {
+  color: #55acee;
+}
+
+#icons .ion-social-linkedin {
+  color: #0077b5;
+}
+
+#icons .ion-social-github {
+  font-size: 30px;
+}
+
+#oss .action {
+  color: #999;
+}
+
+#oss .action a {
+  color: #333;
+  font-weight: 500;
+}
